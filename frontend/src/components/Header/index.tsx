@@ -9,9 +9,9 @@ function Header() {
             <p>
               Desenvolvido por
               <br></br>
-              <a href="https://github.com/Valossa515/">GitHub</a>
+              <a href="https://github.com/Valossa515/">Felipe Martins, GitHub</a>
               <br></br>
-              <a href="https://www.linkedin.com/in/felipe-martins-529a249a/">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/felipe-martins-529a249a/">Felipe Martins, LinkedIn</a>
             </p>
         </div>
     </header>
