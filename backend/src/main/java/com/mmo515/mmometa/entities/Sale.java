@@ -70,11 +70,11 @@ public class Sale {
 		this.deals = deals;
 	}
 	
-	public Double getAmaount() {
+	public Double getAmount() {
 		return amount;
 	}
-	public void setAmaount(Double amaount) {
-		this.amount = amaount;
+	public void setAmount(Double amount) {
+		this.amount = amount;
 	}
 	
 	public LocalDate getDate() {

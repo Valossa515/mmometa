@@ -28,7 +28,7 @@ public class SaleDTO implements Serializable{
 		sellerName = obj.getSellerName();
 		visited = obj.getVisited();
 		deals = obj.getDeals();
-		amount = obj.getAmaount();
+		amount = obj.getAmount();
 		date = obj.getDate();
 	}
 

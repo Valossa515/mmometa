@@ -33,7 +33,7 @@ public class SMSService {
 		Sale sale = saleRepository.findById(saleId).get();
 		String date = sale.getDate().getMonthValue() + "/" + sale.getDate().getYear();
 		String msg = "Vendedor: " + sale.getSellerName() + " Foi destaque em: " + "\n" +
-		date + " com um total de: R$ " + String.format("%.2f", sale.getAmaount());
+		date + " com um total de: R$ " + String.format("%.2f", sale.getAmount());
 		
 		Twilio.init(twilioSid, twilioKey);
 
