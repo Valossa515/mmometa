@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BASE_URL } from '../../utils/request';
 import { Sale } from '../../models/sale';
+import SaleButton from '../SaleButton';
 
 function SalesCard() {
   const min = new Date(new Date().setDate(new Date().getDate() - 365));
@@ -44,9 +45,14 @@ function SalesCard() {
                    className="dsmeta-form-control"
                    dateFormat="dd/MM/yyyy"/>
               </div>
+                <div className="dsmeta-red-btn-container">
+                      <SaleButton />
+              </div>
             </div>
 
             <div>
+           
+
               <table className="dsmeta-sales-table">
                 <thead>
                   <tr>
